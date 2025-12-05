@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Interactif - [Nom Prénom]</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">CV <span>Interactif</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Expérience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Formation</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Compétences</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+                <button id="themeToggle" class="btn theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <h1>Adam Elaissouni</h1>
+                        <h2>[Votre Titre Professionnel]</h2>
+                        <p>[Brève description professionnelle - 2-3 lignes maximum]</p>
+                        <div class="hero-buttons">
+                            <a href="#contact" class="btn btn-primary">Me contacter</a>
+                            <a href="#projects" class="btn btn-outline">Voir projets</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image">
+                        <img src="imgs/user.png" alt="Photo personelle">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">À propos de moi</h2>
+            <div class="row">
+                <div class="col-lg-8">
+                    <p>Étudiant en 2ème année de tronc commun Informatique Appliquée (IAP), passionné par le
+                        développement
+                        web et les technologies numériques. Mon parcours en IAP m'a permis d'acquérir des bases solides
+                        en programmation, algorithmique et conception de systèmes informatiques.
+                        <br>
+                        Actuellement, je me spécialise dans le développement front-end avec HTML5, CSS3, JavaScript
+                        et Bootstrap, tout en explorant les concepts du back-end à travers mes projets académiques.
+                        Mon objectif est de devenir un développeur web polyvalent capable de concevoir des applications
+                        complètes, performantes et adaptées aux besoins utilisateurs.
+                        <br>
+                        À travers mes projets personnels et académiques, je développe une approche méthodique pour
+                        résoudre des problèmes techniques complexes. Je suis particulièrement intéressé par l'UX/UI
+                        design et les bonnes pratiques de développement qui garantissent des applications robustes
+                        et maintenables.
+                    </p>
+                    <div class="personal-info">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p><strong>Âge :</strong> 19 ans</p>
+                                <p><strong>Nationalité :</strong> Marocaine</p>
+                                <p><strong>Langues :</strong> English - Francais - العربية</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p><strong>Disponibilité :</strong> Actuellement en études (disponible pour des projets
+                                    freelance)</p>
+                                <p><strong>Email :</strong> a.elaissouni3021@uca.ac.ma</p>
+                                <p><strong>Téléphone :</strong> +212 780 119 814</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="interests">
+                        <h4>Centres d'intérêt</h4>
+                        <div class="interests-list">
+                            <span><i class="fas fa-code"></i> Programmation</span>
+                            <span><i class="fas fa-book-open"></i> Lecture de romans</span>
+                            <span><i class="fas fa-gamepad"></i> Gaming</span>
+                            <span><i class="fas fa-running"></i> Football</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Expérience professionnelle</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">Novembre 2025 - Décembre 2025</div>
+                    <div class="timeline-content">
+                        <h4>Projet académique : Application Web</h4>
+                        <h5>La FSSM</h5>
+                        <p>Développement d'une application web complète en équipe</p>
+                        <ul>
+                            <li>Conception et développement front-end avec HTML/CSS/JavaScript</li>
+                            <li>Utilisation de Bootstrap pour le design responsive</li>
+                            <li>Gestion de projet avec méthodologie agile</li>
+                        </ul>
+                    </div>
+                </div>>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2024 - Présent</div>
+                <div class="timeline-content">
+                    <h4>Développeur Web Freelance</h4>
+                    <h5>Projets personnels</h5>
+                    <p>Création de sites web et applications pour développer mes compétences</p>
+                    <ul>
+                        <li>Développement de portfolios et sites vitrines</li>
+                        <li>Expérimentation avec différentes technologies web</li>
+                        <li>Apprentissage autodidacte des bonnes pratiques</li>
+                    </ul>
+                </div>
+            </div>>
+            <div class="timeline-item">
+                <div class="timeline-date">2023 - 2024</div>
+                <div class="timeline-content">
+                    <h4>Projets de Développement</h4>
+                    <h5>Formation IAP</h5>
+                    <p>Réalisation de projets dans le cadre de ma formation</p>
+                    <ul>
+                        <li>Site web dynamique avec JavaScript</li>
+                        <li>Applications web avec gestion de bases de données</li>
+                        <li>Projets en groupe avec Git/GitHub</li>
+                    </ul>
+                </div>
+            </div>>
+        </div>
+        </div>
+    </section>
+
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Formation</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="education-card">
+                        <h4>Bac</h4>
+                        <h5>Lycée Mohammed V</h5>
+                        <p>2023 - 2024</p>
+                        <p>Bien</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="education-card">
+                        <h4>Deug</h4>
+                        <h5>La FSSM</h5>
+                        <p>2024 - présent</p>
+                        <p>&olarr;</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Compétences techniques</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>HTML/CSS</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 95%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>JavaScript</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>C</span>
+                            <span>99%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 99%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Python</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>C++</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Git/Github</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projets réalisés</h2>
+            <div class="swiper project-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="project-card">
+                            <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                                alt="CV Interactif">
+                            <div class="project-info">
+                                <h4>CV Interactif en ligne</h4>
+                                <p>Site web portfolio avec dark/light mode et slider de projets</p>
+                                <div class="project-tags">
+                                    <span>HTML5</span>
+                                    <span>CSS3</span>
+                                    <span>JavaScript</span>
+                                    <span>Bootstrap</span>
+                                </div>
+                                <p class="project-desc">
+                                    Mon propre CV en ligne avec design responsive, mode sombre/clair,
+                                    et présentation interactive de mes compétences.
+                                </p>
+                            </div>
+                        </div>
+                    </div>>
+                    <div class="swiper-slide">
+                        <div class="project-card">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                                alt="Site Web">
+                            <div class="project-info">
+                                <h4>Site Web d'Association</h4>
+                                <p>Site vitrine pour une association étudiante</p>
+                                <div class="project-tags">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>Bootstrap</span>
+                                    <span>Git</span>
+                                </div>
+                                <p class="project-desc">
+                                    Conception et développement d'un site responsive présentant
+                                    les activités et événements d'une association universitaire.
+                                </p>
+                            </div>
+                        </div>
+                    </div>>
+                    <div class="swiper-slide">
+                        <div class="project-card">
+                            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                                alt="To-Do List">
+                            <div class="project-info">
+                                <h4>Application To-Do List</h4>
+                                <p>Gestionnaire de tâches interactif</p>
+                                <div class="project-tags">
+                                    <span>JavaScript</span>
+                                    <span>LocalStorage</span>
+                                    <span>DOM</span>
+                                    <span>CSS3</span>
+                                </div>
+                                <p class="project-desc">
+                                    Application web permettant d'ajouter, modifier et supprimer
+                                    des tâches avec persistance des données en local.
+                                </p>
+                            </div>
+                        </div>
+                    </div>>
+                    <div class="swiper-slide">
+                        <div class="project-card">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                                alt="Calculatrice">
+                            <div class="project-info">
+                                <h4>Calculatrice Web</h4>
+                                <p>Application de calcul avec interface moderne</p>
+                                <div class="project-tags">
+                                    <span>JavaScript</span>
+                                    <span>Algorithmie</span>
+                                    <span>UI Design</span>
+                                    <span>Responsive</span>
+                                </div>
+                                <p class="project-desc">
+                                    Calculatrice complète avec opérations basiques et avancées,
+                                    interface intuitive et design adapté à tous les écrans.
+                                </p>
+                            </div>
+                        </div>
+                    </div>>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Me contacter</h2>
+            <div class="row">
+                <div class="col-lg-8">
+                    <form id="contactForm" class="contact-form">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" placeholder="Nom complet" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" placeholder="Adresse email" required>
+                            </div>
+                        </div>
+                        <input type="text" placeholder="Sujet" required>
+                        <textarea placeholder="Votre message" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-primary">Envoyer le message</button>
+                    </form>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h5>Email</h5>
+                                <p>a.elaissouni3021@uca.ac.ma</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h5>Téléphone</h5>
+                                <p>+212 780 119 814</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h5>Adresse</h5>
+                                <p>Marrakech, Maroc</p>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Adam Elaissouni - Tous droits réservés</p>
+            <p>CV Interactif - Projet Programmation Web 2</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
