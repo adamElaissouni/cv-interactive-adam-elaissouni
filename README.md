@@ -1,11 +1,11 @@
 CV Interactif - Projet Programmation Web 2
 
-?? Description
+==> Description
 
 CV interactif développé dans le cadre du module Programmation Web 2.
 Ce projet présente un CV en ligne avec des fonctionnalités interactives modernes.
 
-?? Fonctionnalités
+==> Fonctionnalités
 
 · ✅ Design responsive
 · ✅ Mode sombre/clair
@@ -14,7 +14,7 @@ Ce projet présente un CV en ligne avec des fonctionnalités interactives modern
 · ✅ Formulaire de contact
 · ✅ Animation des compétences
 
-??️ Technologies
+==> Technologies
 
 · HTML5
 · CSS3 (Bootstrap 5)
@@ -22,7 +22,7 @@ Ce projet présente un CV en ligne avec des fonctionnalités interactives modern
 · Swiper.js
 · Font Awesome
 
-?? Structure
+==> Structure
 
 ``
 
@@ -33,13 +33,14 @@ README.md
 ``
 
 
-?? Liens
+==> Liens
 
-· Site : https://adamElaissouni.github.io/cv-interactif-adam-elaissouni/
+· Site : https://adamelaissouni.github.io/cv-interactive-adam-elaissouni
 · Code : https://github.com/adamElaissouni/cv-interactif-adam-elaissouni
 
-??‍?? Auteur
+==> Auteur
 
 adam Eaissouni
+
 Étudiant en 2ème année Informatique Appliquée (IAP)
 Décembre 2025
